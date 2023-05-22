@@ -12,15 +12,19 @@
 *{padding: 0px;margin: 0px;font-family: Arial, Helvetica, sans-serif;}
 header{background-image: linear-gradient(to bottom, var(--color1),var(--color3)); 
 color: white;height: 300px;}
-header > p{text-align: center;padding-bottom:60px;}
+header > p{text-align: center;padding-bottom:58px;}
 .princi{color: white; text-decoration: none;padding: 10px;}
 .princi:hover{transition-duration: 1s;background-color: var(--color1);border-radius: 8px;}
 h1{padding-top: 100px;padding-bottom: 10px;font-size: 70px;text-align: center;}
 main{max-width: 800px;margin: auto;background-color: white;}
 main > p{padding: 0px 10px;font-size: 20px;}
 body{background-color: rgb(230, 228, 223);}
-h2{background-color: var(--color1);color: white;margin: 10px 5px;padding-left: 10px;    }
+h2{background-color: var(--color1);color: white;margin: 10px 0px;}
 h2#pro{background-color: var(--color1);color: white;padding-left: 10px;margin-top: 0px;}
 img{width: 50%;margin: auto;display: block;}
 div#back{background: black url(twitter_capa-2_tb.jpg) center center fixed;height: 500px;background-size: cover;margin: 10px 10px;}
 p.groud{background-color: #1f1f1f7c;margin: 10px;color: white;padding: 10px;}
+footer{color: white;background-color: black;text-align: center;}
+a.foo{color: rgb(29, 110, 181);text-decoration: none;}
+.foo:hover{text-decoration: underline;}
+img#celular{width: 70%;}
