@@ -22,9 +22,14 @@ body{background-color: rgb(230, 228, 223);}
 h2{background-color: var(--color1);color: white;margin: 10px 0px;}
 h2#pro{background-color: var(--color1);color: white;padding-left: 10px;margin-top: 0px;}
 img{width: 50%;margin: auto;display: block;}
-div#back{background: black url(twitter_capa-2_tb.jpg) center center fixed;height: 500px;background-size: cover;margin: 10px 10px;}
+div#back{background: black url(imagens/twitter_capa-2_tb.jpg) center center fixed;height: 500px;background-size: cover;margin: 10px 10px;}
 p.groud{background-color: #1f1f1f7c;margin: 10px;color: white;padding: 10px;}
 footer{color: white;background-color: black;text-align: center;}
-a.foo{color: rgb(29, 110, 181);text-decoration: none;}
-.foo:hover{text-decoration: underline;}
+a.foo{color: rgb(77, 151, 216);text-decoration: none;}
+.foo:hover{text-decoration: underline;color: rgb(200, 17, 17);}
 img#celular{width: 70%;}
+table{border-collapse: collapse;width: 500px;height: 400px;margin: auto;}
+td, th{border: 2px black solid;text-align: center;}
+p#final{padding: 3px;}
+.lupa{width: 100px;display: block;padding: 10px;margin: 0px;}
+.icone{border-radius: 100px;display: inline;margin: 0px;}
