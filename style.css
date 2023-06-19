@@ -28,10 +28,16 @@ footer{color: white;background-color: black;text-align: center;}
 a.foo{color: rgb(77, 151, 216);text-decoration: none;}
 .foo:hover{text-decoration: underline;color: rgb(200, 17, 17);}
 img#celular{width: 70%;}
-table{border-collapse: collapse;width: 500px;height: 400px;margin: auto;}
+table{border-collapse: collapse;width: 40vw;min-width: 400px;height: 400px;margin: auto;}
 td, th{border: 2px black solid;text-align: center;}
 p#final{padding: 3px;}
 .lupa{width: 100px;display: block;padding: 10px;margin: 0px;margin: auto;}
 .icone{border-radius: 100px;display: inline;margin: 0px;}
 .icone:hover{border: #b0b0b0 solid 3px;box-sizing: border-box;}
 #coluna{columns: 3;}
+p.espaço-bottom{padding-bottom: 10px;}
+p.espaço-top{padding-top: 10px;}
+a.prici{padding: 10px;background-color: var(--color3);color: white;text-decoration: none;border-radius: 10px;}
+a.prici:hover{background-color: var(--color2);transition-duration: 0.5s;}   
+div#w{padding: 15px;}
+iframe{width: 90%;margin: auto;display: block;height: 500px;}
