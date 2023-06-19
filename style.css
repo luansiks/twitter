@@ -27,8 +27,9 @@ p.groud{background-color: #1f1f1f7c;margin: 10px;color: white;padding: 10px;}
 footer{color: white;background-color: black;text-align: center;}
 a.foo{color: rgb(77, 151, 216);text-decoration: none;}
 .foo:hover{text-decoration: underline;color: rgb(200, 17, 17);}
-img#celular{width: 70%;}
+img#celular{max-width: 500px;min-width: 300px;}
 table{border-collapse: collapse;width: 40vw;min-width: 400px;height: 400px;margin: auto;}
+thead > tr > th{position: sticky;top: -1px;background-color: var(--color1);color: white;}
 td, th{border: 2px black solid;text-align: center;}
 p#final{padding: 3px;}
 .lupa{width: 100px;display: block;padding: 10px;margin: 0px;margin: auto;}
