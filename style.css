@@ -28,7 +28,7 @@ footer{color: white;background-color: black;text-align: center;}
 a.foo{color: rgb(77, 151, 216);text-decoration: none;}
 .foo:hover{text-decoration: underline;color: rgb(200, 17, 17);}
 img#celular{max-width: 500px;min-width: 300px;}
-table{border-collapse: collapse;width: 40vw;min-width: 400px;height: 400px;margin: auto;}
+table{border-collapse: collapse;width: 40vw;min-width: 300px;height: 400px;margin: auto;}
 thead > tr > th{position: sticky;top: -1px;background-color: var(--color1);color: white;}
 td, th{border: 2px black solid;text-align: center;}
 p#final{padding: 3px;}
@@ -42,3 +42,5 @@ a.prici{padding: 10px;background-color: var(--color3);color: white;text-decorati
 a.prici:hover{background-color: var(--color2);transition-duration: 0.5s;}   
 div#w{padding: 15px;}
 iframe{width: 90%;margin: auto;display: block;height: 500px;}
+a.meio{color: #ffffff;background-color: #073C57;}
+a.meio:hover{background-color: #1195D6;transition-duration: 0.5s;}
