@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cadastro do site</title>
+    <link rel="shortcut icon" href="imagens/pngtree-twitter-social-media-round-icon-png-image_8704823.png" type="image/x-icon">
+    <link rel="stylesheet" href="stilos/estilo-cadastro.css ">
+</head>
+<body>
+    <header>
+        <h1>cadastre-se aqui no nosso site</h1>
+        <div>
+            <a class="link-princi" href="#">noticia</a>
+            <a class="link-princi" href="#">saber mais</a>
+            <a class="link-princi" href="https://luansiks.github.io/twitter/index.html">menu</a>
+            <a class="link-princi" href="#">curiosidade</a>
+        </div>
+    </header>
+    <main>
+        <h2>prencha os blocos baixo</h2>
+        <form action="cadastro.php" method="post" autocomplete="on">
+             <fieldset>
+                <legend>dados da conta</legend>
+                <p>
+                    <label for="inome">nome: </label>
+                    <input type="text" name="nome" id="inome" autocomplete="name" required minlength="10" maxlength="25" placeholder="nome de usuario">
+                </p><br>
+                <p>
+                    <label for="iidade">idade: </label>
+                    <input type="number" name="idade" id="iidade" placeholder="idade de usuario" required>
+                </p><br>
+                <p>
+                    <label for="iemail">e-mail: </label>
+                    <input type="email" name="email" id="iemail" autocomplete="email" required minlength="15" maxlength="30" placeholder="e-mail de usuario">
+                </p><br>
+                <p>
+                    <label for="isenha">senha: </label>
+                    <input type="password" name="senha" id="isenha" autocomplete="new-password" required minlength="10" maxlength="20" placeholder="senha">
+                </p><br>
+                <p>
+                    <label for="itel">telefone: </label>
+                    <input type="tel" name="tel" id="itel" autocomplete="tel" required minlength="14" maxlength="15" placeholder="(xx) #xxxx-xxxx">
+                </p><br>
+                <input type="radio" name="g" id="gm" checked><label for="gm"> masculino</label>
+                <input type="radio" name="g" id="gf"><label for="gf"> feminino</label><br><br>
+                <p>
+                    <label for="iimg">sua descrição</label><br>
+                    <textarea name="img" id="iimg" cols="30" rows="10" placeholder="descrição..."></textarea>
+                </p>
+             </fieldset><br>
+             <p>
+                <label for="ilinha">voce gostou do nosso site?</label>
+                <input type="range" name="linha" id="ilinha" min="0" max="10" value="0">
+             </p><br>
+            <p>
+                <input type="submit" value="enviar">
+                <input type="reset" value="limpar">
+            </p>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
