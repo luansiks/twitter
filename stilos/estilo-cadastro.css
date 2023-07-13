@@ -10,6 +10,7 @@
     --color5: #41535C;
 }
 
+i#menu{display: none;}
 body{background-color: var(--color3);}
 header{background-color: var(--color2);color: white;height: 190px;}
 header > h1{text-align: center;padding: 30px;padding-bottom: 50px;}
