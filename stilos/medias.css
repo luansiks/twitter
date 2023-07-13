@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+:root{
+    --color1: #1195D6;
+    --color2: #5DB2DD;
+    --color3: #073C57;
+    --color4: #41535C;
+    --color5: #0D75A8;
+}
+
+@media screen and (max-width: 768px){
+    i#burguer{
+        display: block;
+        background-color: var(--color3);
+        text-align: center;
+        padding: 5px;
+    }
+    a.princi{
+        display: block;
+        background-color: var(--color1);
+    }
+    div#item{display: none;}
+    a.princi:hover{
+        border-radius: 0px;
+        background-color: var(--color2);
+    }
+
+    header > p{padding-bottom: 20px;}
+    header{height: auto;}
+}
