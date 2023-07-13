@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+:root{
+    --color1: #1195D6;
+    --color2: #5DB2DD;
+    --color3: #073C57;
+    --color4: #41535C;
+    --color5: #0D75A8;
+}
+
+@media screen and (max-width: 768px){
+    i#burguer{
+        display: block;
+        text-align: center;
+        background-color: var(--color3);
+    }
+}

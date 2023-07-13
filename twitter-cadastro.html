@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>cadastro do site</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="imagens/pngtree-twitter-social-media-round-icon-png-image_8704823.png" type="image/x-icon">
     <link rel="stylesheet" href="stilos/estilo-cadastro.css ">
+    <link rel="stylesheet" href="stilos/medias-cadastro.css">
 </head>
-<body>
+<body onresize="mudar()">
     <header>
         <h1>cadastre-se aqui no <br>nosso site</h1>
-        <div>
+        <i class="material-icons" onclick="menu()">menu</i>
+        <div id="item">
             <a class="link-princi" href="#">noticia</a>
             <a class="link-princi" href="#">saber mais</a>
             <a class="link-princi" href="https://luansiks.github.io/twitter/index.html">menu</a>
@@ -60,6 +63,19 @@
             </p>
         </form>
     </main>
-    <footer></footer>
+    <script>
+        function menu(){
+            if(item.style.display == 'block'){
+                item.style.display = 'none'
+            }else{
+                item.style.display = 'block'
+            }
+        }
+        function mudar(){
+            if(window.innerWidth >= 768){
+                item.style.display = 'block'
+            }else{item.style.display = 'none'}
+        }
+    </script>
 </body>
 </html>
