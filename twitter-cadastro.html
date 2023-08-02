@@ -23,25 +23,24 @@
     <main>
         <h2>prencha os blocos baixo</h2>
         <form action="cadastro.php" method="post" autocomplete="on">
-             <fieldset>
-                <legend>dados da conta</legend>
-                <p>
-                    <label for="inome">nome: </label>
+                <p class="espaco">
+                    <i id="pessoa" class="material-icons">person</i>
                     <input type="text" name="nome" id="inome" autocomplete="name" required minlength="10" maxlength="25" placeholder="nome de usuario">
+                    <label for="inome">nome: </label>
                 </p><br>
-                <p>
+                <p class="espaco">
                     <label for="iidade">idade: </label>
                     <input type="number" name="idade" id="iidade" placeholder="idade de usuario" required>
                 </p><br>
-                <p>
+                <p class="espaco">
                     <label for="iemail">e-mail: </label>
                     <input type="email" name="email" id="iemail" autocomplete="email" required minlength="15" maxlength="30" placeholder="e-mail de usuario">
                 </p><br>
-                <p>
+                <p class="espaco">
                     <label for="isenha">senha: </label>
                     <input type="password" name="senha" id="isenha" autocomplete="new-password" required minlength="10" maxlength="20" placeholder="senha">
                 </p><br>
-                <p>
+                <p class="espaco">
                     <label for="itel">telefone: </label>
                     <input type="tel" name="tel" id="itel" autocomplete="tel" required minlength="14" maxlength="15" placeholder="(xx) #xxxx-xxxx">
                 </p><br>
@@ -50,8 +49,7 @@
                 <p>
                     <label for="iimg">sua descrição</label><br>
                     <textarea name="img" id="iimg" cols="30" rows="10" placeholder="descrição..."></textarea>
-                </p>
-             </fieldset><br>
+                </p><br>
              <img src="imagens/imagem-da-logo.png" alt="imagem da logo">
              <p>
                 <label for="ilinha">voce gostou do nosso site?</label>
