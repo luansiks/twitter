@@ -31,6 +31,7 @@ img#fundo{
 div#img{
     float: right;
     width: 40%;
+    
 }
 div#texto{
     float:left;
@@ -39,7 +40,7 @@ div#texto{
 h1, p{
     text-align: center;
 }
-input#yemail{
+input#yemail, input#ypass{
     padding: 0px;
     width: 350px;
     height: 0px;
@@ -53,10 +54,40 @@ div.formul{
     width: 410px;
     text-align: right;
     border-radius: 10px;
+    margin: 15px 0px;
 }
 i.material-icons{
     color: white;
     font-size: 40px;
     display: inline-block;
 
+}
+input#envio{
+    transition-duration: 0.5s;
+    background-color: rgb(118, 184, 245);
+    width: 450px;
+    height: 40px;
+    margin: 0px 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    margin-top: 10px;
+}
+input#envio:hover{
+    background-color: rgb(80, 150, 249);
+    transition-duration: 0.5s;
+}
+input#esqueci{
+    transition-duration: 0.5s;
+    background-color: rgb(129, 210, 214);
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    margin:30px 10px 0px 10px;
+}
+input#esqueci:hover{
+    background-color: rgb(72, 115, 167);
+    transition-duration: 0.5s;
 }

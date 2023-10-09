@@ -14,10 +14,20 @@
            <h1>bem-vindo</h1>
            <p>faça o seu cadastro logo abaixo prencha os requisitos</p>
            <form action="" method="post" autocomplete="on">
-            <div class="formul">
-                <i class="material-icons">person</i>
-                <input type="email" name="email" id="yemail">
-            </div>
+                <div class="formul">
+                    <i class="material-icons">email</i>
+                    <input type="email" name="email" id="yemail" placeholder="Email" autocomplete="email" required minlength="4" maxlength="30">
+                </div>
+                <div class="formul">
+                    <i class="material-icons">password</i>
+                    <input type="password" name="pass" id="ypass" placeholder="Senha" required minlength="4" maxlength="20" autocomplete="current-password">
+                </div>  
+                <div>
+                    <input type="submit" value="enviar" id="envio">
+                </div> 
+                <div>
+                    <input type="submit" value="esquece minha senha?" id="esqueci">
+                </div>
            </form>
        </div>
        <div id="img">
