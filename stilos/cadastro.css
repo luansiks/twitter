@@ -13,11 +13,13 @@ body{
     font: normal 25px Arial;
 }
 section{
+    transition-timing-function: ease;
     position: absolute;
     left: 50%;
     top: 50%;
     background-color: white;
-    width: 800px;
+    max-width: 1000px;
+    min-width: 750px;
     height: 400px;
     transform: translate(-50%, -50%);
     border-radius: 15px;
@@ -42,7 +44,7 @@ h1, p{
 }
 input#yemail, input#ypass{
     padding: 0px;
-    width: 350px;
+    width: 85%;
     height: 0px;
     font-size: 25px;
     border-radius: 10px;
@@ -51,7 +53,7 @@ input#yemail, input#ypass{
 }
 div.formul{
     background-color: rgb(127, 195, 255);
-    width: 410px;
+    width: 90%;
     text-align: right;
     border-radius: 10px;
     margin: 15px 0px;
@@ -65,9 +67,9 @@ i.material-icons{
 input#envio{
     transition-duration: 0.5s;
     background-color: rgb(118, 184, 245);
-    width: 450px;
+    width: 70%;
     height: 40px;
-    margin: 0px 10px;
+    margin: 0px 15%;
     border-radius: 10px;
     font-size: 20px;
     color: white;
@@ -80,12 +82,12 @@ input#envio:hover{
 input#esqueci{
     transition-duration: 0.5s;
     background-color: rgb(129, 210, 214);
-    width: 450px;
+    width: 70%;
     height: 40px;
     border-radius: 10px;
     font-size: 20px;
     color: white;
-    margin:30px 10px 0px 10px;
+    margin:30px 0px 0px 15%;
 }
 input#esqueci:hover{
     background-color: rgb(72, 115, 167);

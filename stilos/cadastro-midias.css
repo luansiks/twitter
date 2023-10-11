@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 770px){
+    section{
+        min-width: 300px;
+        height: 700px;
+        padding: 0px;
+    }
+    div#img{
+        float:none;
+        height: 40%;
+    }
+    div#texto{
+        float:none;
+        height: 60%;
+    }
+    img#fundo{
+        width: 250%;
+        height: 100%;
+        border-radius:15px 15px 0px 0px;
+    }
+    input#yemail, input#ypass{
+        width: 75%;
+    }
+    div.formul{
+        background-color: rgb(127, 195, 255);
+        width: 165%;
+        text-align: right;
+        border-radius: 10px;
+        margin: 15px 0px;
+    }
+    input#envio{
+        display: inline-block;
+        margin: 0px 80px;
+        width: 200px;
+    }
+    input#esqueci{
+        display: inline-block;
+        margin: 10px 80px;
+        width: 200px;
+    }
+    .texa{
+        width: 200px;
+        margin: 0px 50px;
+    }
+}
