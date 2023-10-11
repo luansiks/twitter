@@ -2,7 +2,7 @@
 
 @media screen and (max-width: 770px){
     section{
-        min-width: 300px;
+        min-width: 100px;
         height: 700px;
         padding: 0px;
     }
