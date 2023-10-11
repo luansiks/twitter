@@ -87,9 +87,22 @@ input#esqueci{
     border-radius: 10px;
     font-size: 20px;
     color: white;
-    margin:30px 0px 0px 15%;
+    margin:30px 0px 10px 15%;
 }
 input#esqueci:hover{
     background-color: rgb(72, 115, 167);
     transition-duration: 0.5s;
+}
+a#volta{
+    text-decoration: none;
+    background-color: rgb(94, 149, 197);
+    color: white;
+    border-radius: 10px;
+    margin: 0px 200px;
+    transition-duration: 1s;
+}
+a#volta:hover{
+    background-color: rgb(51, 85, 154);
+    text-decoration: underline;
+    transition-duration: 0.3s;
 }
