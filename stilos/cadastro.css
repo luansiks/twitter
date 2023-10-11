@@ -83,7 +83,7 @@ input#esqueci{
     transition-duration: 0.5s;
     background-color: rgb(129, 210, 214);
     width: 70%;
-    height: 40px;
+    height: 35px;
     border-radius: 10px;
     font-size: 20px;
     color: white;
@@ -98,7 +98,7 @@ a#volta{
     background-color: rgb(94, 149, 197);
     color: white;
     border-radius: 10px;
-    margin: 0px 200px;
+    margin: 0px 180px;
     transition-duration: 1s;
 }
 a#volta:hover{
